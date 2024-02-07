@@ -1,0 +1,59 @@
+.rightTable{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.leftTable{
+    margin: 0;
+    margin-top: 34px;
+}
+table {
+    border-collapse: collapse;
+}
+
+table td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.mainTable table td {
+    color: transparent;
+}
+
+  .themeBlack{
+    background: black;
+    color: white;
+    transition: 1s;
+  }
+
+  .cross {
+    display: block;
+    margin: auto;
+    font-size: 20px; /* Размер крестика */
+    line-height: 30px; /* Высота ячейки */
+    width: 30px; /* Ширина ячейки */
+    color: red;
+}
+
+.allTables {
+    display: flex;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.mainTable td {
+    color: transparent;
+}
+
+.selected {
+    background-color: black;
+}
